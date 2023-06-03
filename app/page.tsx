@@ -1,5 +1,11 @@
+import ClientComponent from '@/components/ClientComponent';
+
 const Home = () => {
-  return <div>page</div>;
+  return (
+    <div>
+      <ClientComponent />
+    </div>
+  );
 };
 
 export default Home;
