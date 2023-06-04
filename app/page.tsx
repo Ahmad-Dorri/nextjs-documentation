@@ -1,9 +1,9 @@
-import ClientComponent from '@/components/ClientComponent';
-
+import Link from 'next/link';
 const Home = () => {
   return (
     <div>
-      <ClientComponent />
+      <h1>main page</h1>
+      <Link href="/users">Users</Link>
     </div>
   );
 };
