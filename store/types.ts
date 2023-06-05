@@ -1,4 +1,6 @@
-import { CounterInterface } from '@/types';
+interface CounterInterface {
+  counter: number;
+}
 interface RootState {
   counter: CounterInterface;
 }
